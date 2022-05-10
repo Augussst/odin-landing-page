@@ -22,6 +22,7 @@ button {
 .header {
     padding: 34px 10%;
     display: flex;
+    justify-content: space-between;
     align-items: center;
     height: 3.5rem;
     background-color: #A21D1D;
@@ -31,7 +32,6 @@ button {
     font-size: 24px;
     font-weight: bold;
     color: #e4e6e7;
-    flex: 1;
 }
 
 .menus {
@@ -42,6 +42,10 @@ button {
 .menu {
     list-style-type: none;
     color: #e4e6e7;
+}
+
+.menu > a:hover {
+    text-decoration: underline;
 }
 
 /***** HERO *****/
@@ -74,6 +78,12 @@ button {
 .hero-btn {
     background-color: #645d36;
     color: #e4e6e7;
+    border: 2px solid #e4e6e7;
+}
+
+.hero-btn:hover {
+    background-color: #e4e6e7;
+    color: #A21D1D;
 }
 
 .hero-img {
@@ -159,6 +169,12 @@ button {
 
 .contact-btn {
     color: #A21D1D;
+    border: 2px solid #e4e6e7;
+}
+
+.contact-btn:hover {
+    background-color: #A21D1D;
+    color: #e4e6e7;
 }
 
 /***** Footer *****/
