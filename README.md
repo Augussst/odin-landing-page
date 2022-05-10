@@ -1,3 +1,5 @@
 # odin-landing-page
 
-Landing Page project for one of the odin project lessons
+Krusty Krabs Landing Page project for one of the odin project lessons
+
+All images belong to Nickelodeon.
