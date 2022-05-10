@@ -5,18 +5,22 @@
     font-family: sans-serif;
 }
 
-.container {
-    padding: 0 48px;
-}
-
 a {
     text-decoration: none;
     color: inherit;
 }
 
+button {
+    padding: 10px 8px;
+    border-radius: 12px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
 /***** HEADER *****/
 
 .header {
+    padding: 0 10%;
     display: flex;
     align-items: center;
     height: 3.5rem;
@@ -39,3 +43,42 @@ a {
     list-style-type: none;
     color: #e4e6e7;
 }
+
+/***** HERO *****/
+
+.hero {
+    background-color: #A21D1D;
+    padding: 48px 10%;
+    height: 70vh;
+    display: flex;
+    gap: 48px;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-text {
+    color: #e4e6e7;
+}
+
+.hero-title {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+.hero-desc {
+    font-size: 18px;
+    margin-bottom: 12px;
+}
+
+.hero-btn {
+    background-color: #645d36;
+    color: #e4e6e7;
+}
+
+.hero-img {
+    max-width: 900px;
+    height: auto;
+}
+
+/***** INFO *****/
